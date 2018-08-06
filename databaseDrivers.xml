@@ -72,6 +72,12 @@
       <option name="send-app-info" value="false" />
       <option name="auto-commit" value="true" />
       <option name="schema-control" value="AUTOMATIC" />
+      <library>
+        <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/SQL Server/6.4.0/sqljdbc42-6.4.0.jar</url>
+      </library>
+      <library>
+        <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/SQL Server/6.4.0/sqlserver6-win-auth.jar</url>
+      </library>
     </driver>
     <driver id="db2.jtopen">
       <artifact name="JTOpen (DB2 iSeries)" use="true" />
